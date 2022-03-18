@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Project_SortingHat
 {
-    public partial class client : Form
+    public partial class frmClient : Form
     {
-        public client()
+        public frmClient()
         {
             InitializeComponent();
         }
@@ -20,6 +20,12 @@ namespace Project_SortingHat
         private void client_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnClientClose_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("[ClientEvent] Client is now closing...");
+            Application.Exit();
         }
     }
 }

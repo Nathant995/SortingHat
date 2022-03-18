@@ -16,7 +16,7 @@ namespace Project_SortingHat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new client());
+            Application.Run(new frmClient());
         }
     }
 }
