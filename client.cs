@@ -114,6 +114,9 @@ namespace Project_SortingHat
             {
                 Console.WriteLine("[Client Actions] Stopping Intro Video");
                 tmrSortingHouse.Stop();
+                pnlUI.Visible = true;
+                pnlUI.Enabled = true;
+                pnlUI.Show();
             }
         }
 
